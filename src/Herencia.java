@@ -11,5 +11,8 @@ public class Herencia {
         System.out.println(claseHijastra.toString());
         System.out.println(claseHijastra.equals("\n" + claseHija));
         System.out.println(claseHijastra.hashCode());
+
+        ClaseEmergencia claseEmergencia = new ClaseEmergencia();
+        claseEmergencia.mostrarEdad();
     }
 }
