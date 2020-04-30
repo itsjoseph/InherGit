@@ -6,5 +6,10 @@ public class Herencia {
         claseHija claseHija = new claseHija((byte)3,2);
         System.out.println(claseHija.toString());
         clasePadre.mfkmf();
+
+        ClaseHijastra claseHijastra = new ClaseHijastra(6,1.52,false);
+        System.out.println(claseHijastra.toString());
+        System.out.println(claseHijastra.equals("\n" + claseHija));
+        System.out.println(claseHijastra.hashCode());
     }
 }
