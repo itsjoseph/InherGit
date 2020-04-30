@@ -14,5 +14,6 @@ public class Herencia {
 
         ClaseEmergencia claseEmergencia = new ClaseEmergencia();
         claseEmergencia.mostrarEdad();
+        claseEmergencia.mostrarGitW();
     }
 }
